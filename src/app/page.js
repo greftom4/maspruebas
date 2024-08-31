@@ -41,6 +41,10 @@ export default function Home() {
           <h2 className="text-[5em] text-white ">ESTO</h2>
           <h2 className="text-[5em] text-white ">ESTO</h2>
           <h2 className="text-[5em] text-white ">ESTO</h2>
+          <h2 className="text-[5em] text-white ">ESTO</h2>
+          <h2 className="text-[5em] text-white ">ESTO</h2>
+          <h2 className="text-[5em] text-white ">ESTO</h2>
+          <h2 className="text-[5em] text-white ">ESTO</h2>
         </div>
       </div>
 
