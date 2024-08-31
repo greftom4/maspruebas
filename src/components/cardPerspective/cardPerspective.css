@@ -1,0 +1,34 @@
+.perspective {
+    perspective: 400px;
+}
+
+.card-content {
+
+    transform-style: preserve-3d;
+    transform: rotateY(-10deg)
+}
+
+.card-content1 {
+
+    transform-style: preserve-3d;
+    transform: rotateY(0deg)
+}
+
+
+/* BANNER NOSOTROS */
+
+.perspective1 {
+    perspective: 400px;
+}
+
+.card-content2 {
+
+    transform-style: preserve-3d;
+    transform: rotateY(10deg)
+}
+
+.card-content3 {
+    
+    transform-style: preserve-3d;
+    transform: rotateY(0deg)
+}
