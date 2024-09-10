@@ -16,7 +16,7 @@ const CarouselComp = () => {
                 </div>
                 <Button className=" mr-[10rem]  mt-[15vh] " ruta="/trabajos"
                 />
-                    
+
             </div>
 
             <div>

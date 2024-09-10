@@ -3,6 +3,7 @@ import SmoothScroll from "@/components/scroll/SmoothScroll";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import LenisScroll from "@/components/scroll/LenisScroll";
+import Footer from "@/components/footer/Footer";
 
 
 

@@ -2,11 +2,11 @@
 import { ReactLenis, useLenis } from 'lenis/react'
 
 const LenisScroll = ({children}) => {
-    const lenis = useLenis(({ scroll }) => {
-        // called every scroll
-      })
+    
   return (
-    <ReactLenis root>
+    <ReactLenis root options={{
+      lerp:"0.06"
+    }} >
         {children}
     </ReactLenis>
   )

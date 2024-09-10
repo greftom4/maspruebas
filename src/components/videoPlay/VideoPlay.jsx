@@ -1,8 +1,7 @@
 'use client'
 import { useRef, useState, useEffect } from 'react';
-/* import Point from '../point/Point'; */
 import MouseFollow from '../mouseFollow/MouseFollow';
-/* import { motion } from 'framer-motion'; */
+
 
 
 const VideoPlay = () => {
@@ -89,6 +88,7 @@ const VideoPlay = () => {
           <MouseFollow targetRef={videoRef} />
         </div>
         <video
+        autoPlay
           muted
           loop
           className="absolute top-0 left-0 w-auto h-full min-w-full min-h-full object-cover"
