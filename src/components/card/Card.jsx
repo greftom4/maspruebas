@@ -28,8 +28,8 @@ const Card = ({image2, children}) => {
   }, [])
 
   return (
-    <div ref={cardRef} className={`w-[1000px] h-[1000px] relative transition duration-[1500ms]`}>
-        <Image className={`w-full transition duration-[4000ms] object-cover absolute ${isInView ? "opacity-0" : "opacity-100"}`} src={image2} width={1000} height={1000} alt="fotisde" />
+    <div ref={cardRef} className={`w-[1000px] h-[1000px] relative transition duration-[100ms]`}>
+        <Image className={`w-full transition duration-[2000ms] object-cover absolute ${isInView ? "opacity-0" : "opacity-100"}`} src={image2} width={1000} height={1000} alt="fotisde" />
         {children}
     </div>
   )

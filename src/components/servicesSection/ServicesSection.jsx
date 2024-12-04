@@ -63,7 +63,7 @@ const ServicesSection = () => {
     const [hoveredImage, setHoveredImage] = useState(null);
 
   return (
-    <div className="flex justify-between h-fit px-[100px]  ">
+    <div className="flex justify-between w-full h-fill px-[100px]  ">
         <div className=" flex justify-center items-center object-cover h-fit overflow-hidden py-[50px] " >
             {hoveredImage && (
                 <Image className={`transition duration-[700ms] ${hoveredImage ? "opacity-100" : "opacity-0"} `} src={hoveredImage.img} width={500} height={500} alt="fotis" />

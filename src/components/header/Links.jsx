@@ -16,5 +16,9 @@ export const links = [
         title: "trabajos",
         href:"/trabajos"
     },
+    {
+        title: "pruebas",
+        href:"/pruebas"
+    },
 
 ]
